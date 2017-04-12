@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.sheet {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    display: inline-block;
+    width: 450px
+}
+
+.category {
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: clear;
+    position: relative;
+    padding-right: 20px
+}
+
+.category img {
+    width: 120px;
+    border: 1px solid grey;
+    float: left;
+    margin: 15px;
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.category div {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border: 2px outset red;
+    background: url('../images/red-button.png') no-repeat;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    border-left: 2px inset red;
+}
+
+.category div+div {
+    right: 80px;
+}
+
+.category div:hover {
+    cursor: pointer;
+}
+
+.category div:active {
+    border-style: inset;
+    border-right: 2px outset red;
+}

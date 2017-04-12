@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    background: url('../task-images/result.png') no-repeat;
+}
+
+#wrapper {
+    padding-top: 5px;
+    padding-left: 6px;
+    padding-right: 7px;
+    display: inline-block;
+}
+
+#wrapper #avatar img {
+    border-radius: 7px;
+    height: 230px;
+}
+
+#wrapper .user-info {
+    margin-top: 7px;
+}
+
+#wrapper .user-info h1 {
+    font-size: 26px;
+}
+
+#wrapper .user-info h2 {
+    margin-top: 1px;
+    font-weight: normal;
+    font-size: 20px;
+    color: #666666;
+}
+
+#wrapper .user-info #label {
+    background: #6CC644;
+    display: inline-block;
+    color: white;
+    font-size: 11px;
+    margin-top: 8.2px;
+    padding: 3px;
+    padding-top: 2px;
+    border-radius: 3px;
+}
+
+#wrapper .user-info a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #8CD1F0;
+}
+
+#wrapper #details {
+    margin-top: 21.3px;
+}
+
+#wrapper #details .octicon {
+    color: #999CAA;
+}
+
+#wrapper #details p {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+#wrapper #details #mail>p {
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#wrapper #details #mail>p a {
+    font-size: 14.3px;
+    letter-spacing: 0;
+}
+
+#wrapper #details #joined>p {
+    margin-top: 8px;
+}
+
+#wrapper #git-info {
+    margin-top: 10px;
+}
+
+#wrapper #git-info span {
+    display: block;
+    font-size: 28px;
+    color: #4078CB;
+    font-weight: 600;
+    margin-bottom: -3px;
+    padding-bottom: 0px;
+}
+
+#wrapper #git-info div {
+    display: inline-block;
+    margin: 9px;
+    padding-left: 4px;
+    font-size: 11px;
+    text-align: center;
+    color: #A5957F;
+}

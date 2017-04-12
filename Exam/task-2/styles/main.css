@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    background: url('../task-images/01.initial.jpg') no-repeat;
+}
+
+#wrapper #play {
+    float: left;
+    width: 854px;
+}
+
+#wrapper #side-play {
+    float: left;
+    padding: 15px;
+    padding-top: 10px;
+    position: relative;
+    /*background-color: #1A1A1A;*/
+}
+
+#wrapper #side-play .playlist-info h3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#wrapper #side-play .playlist-info p,
+#wrapper #side-play .playlist-info p>a {
+    color: #B0ABA2;
+    font-size: 13px;
+    display: inline-block;
+}
+
+#wrapper #side-play .playlist-info i {
+    position: relative;
+    top: -27px;
+    left: 382px;
+    width: 1.5em;
+}
+
+.fa {
+    color: #B9B5A9;
+}
+
+#wrapper #side-play .controls i {
+    margin-top: 4px;
+    margin-right: 9px;
+}
+
+#wrapper #side-play .playlist ol {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#wrapper #side-play .playlist ol {
+    margin-left: -4px;
+}
+
+#wrapper #side-play .playlist ol li {
+    margin-bottom: 16px;
+}
+
+#wrapper #side-play .playlist ol li span {
+    color: white;
+    font-size: 11px;
+}
+
+#wrapper #side-play .playlist ol li div {
+    display: inline-block;
+    margin-left: 2px;
+}
+
+#wrapper #side-play .playlist ol li div h4 {
+    color: #B0ABA2;
+    font-weight: normal;
+    font-size: 12.6px;
+}
+
+#wrapper #side-play .playlist ol li div h5 {
+    font-size: 12.5px;
+    color: #B0ABA2;
+}

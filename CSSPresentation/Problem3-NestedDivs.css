@@ -1,0 +1,7 @@
+.nested {
+    border-radius: 100px;
+    background-color: black;
+    border-color: black;
+    border: 1px solid red;
+    padding-right: 15px;
+}

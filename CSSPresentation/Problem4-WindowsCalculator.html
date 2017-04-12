@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="icon" type="image/gif/png" href="./images/calc.jpg">
+    <link rel="stylesheet" type="" href="./Problem4-WindowsCalculator.css">
+</head>
+
+<body>
+    <form action="#" method="post">
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="9"><input type="textarea" name="" value="" placeholder="8854455" id="text"></td>
+                </tr>
+                <tr>
+                    <td id="binary" colspan="9">
+                        <table id="bits">
+                            <tr>
+                                <td class="binaryrepresentation">0000</td>
+                                <td class="binaryrepresentation">0000</td>
+                                <td class="binaryrepresentation">0000</td>
+                                <td class="binaryrepresentation">0000</td>
+                                <td class="binaryrepresentation">0000</td>
+                                <td class="binaryrepresentation">0000</td>
+                                <td class="binaryrepresentation">0000</td>
+                                <td class="binaryrepresentation">0000</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class="startingbits">63</td>
+                                <td colspan="3" class="startingbits">47</td>
+                                <td class="startingbits veryfirstbits">32</td>
+                            </tr>
+                            <tr>
+                                <td class="binaryrepresentation">0000</td>
+                                <td class="binaryrepresentation">0000</td>
+                                <td class="binaryrepresentation">1000</td>
+                                <td class="binaryrepresentation">0111</td>
+                                <td class="binaryrepresentation">0001</td>
+                                <td class="binaryrepresentation">1011</td>
+                                <td class="binaryrepresentation">1011</td>
+                                <td class="binaryrepresentation">0111</td>
+                            </tr>
+                            <td colspan="4" class="startingbits">31</td>
+                            <td colspan="3" class="startingbits">15</td>
+                            <td class="startingbits veryfirstbits">0</td>
+                            <tr>
+                        </table>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" class="radios">
+                            <input type="radio" name="countsystem" value="hex" id="hex">
+                            <label for="hex">Hex</label><br>
+                            <input type="radio" name="countsystem" value="dec" id="dec" checked="checked">
+                            <label for="dec">Dec</label><br>
+                            <input type="radio" name="countsystem" value="oct" id="oct">
+                            <label for="oct">Oct</label><br>
+                            <input type="radio" name="countsystem" value="bin" id="bin">
+                            <label for="bin">Bin</label><br>
+                        </td>
+                        <td class="button"><button class="button disabled" type="submit" disabled></button></td>
+                        <td class="button"><button class="button" type="submit">Mod</button></td>
+                        <td class="button"><button class="button numbers disabled" type="submit" disabled>A</button></td>
+                        <td class="button"><button class="button m" type="submit">MC</button></td>
+                        <td class="button"><button class="button m" type="submit">MR</button></td>
+                        <td class="button"><button class="button m" type="submit">MS</button></td>
+                        <td class="button"><button class="button m" type="submit">M+</button></td>
+                        <td class="button"><button class="button m" type="submit">M-</button></td>
+                    </tr>
+                    <tr>
+                        <td class="button"><button class="button" type="submit">(</button></td>
+                        <td class="button"><button class="button" type="submit">)</button></td>
+                        <td class="button"><button class="button numbers disabled" type="submit" disabled>B</button></td>
+                        <td class="button"><button class="button" type="submit">&#8592;</button></td>
+                        <td class="button"><button class="button" type="submit">CE</button></td>
+                        <td class="button"><button class="button" type="submit">C</button></td>
+                        <td class="button"><button class="button" type="submit">&#177;</button></td>
+                        <td class="button"><button class="button disabled" type="submit" disabled>&#8730;</button></td>
+                    </tr>
+                    <tr>
+                        <td class="button"><button class="button" type="submit">RoL</button></td>
+                        <td class="button"><button class="button" type="submit">RoR</button></td>
+                        <td class="button"><button class="button numbers disabled" type="submit" disabled>C</button></td>
+                        <td class="button"><button class="button numbers" type="submit">7</button></td>
+                        <td class="button"><button class="button numbers" type="submit">8</button></td>
+                        <td class="button"><button class="button numbers" type="submit">9</button></td>
+                        <td class="button"><button class="button" type="submit">/</button></td>
+                        <td class="button"><button class="button disabled" type="submit" disabled>%</button></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" class="radios">
+                            <input type="radio" name="bytes" value="qword" id="qword" checked>
+                            <label for="qword">Qword</label><br>
+                            <input type="radio" name="bytes" value="dword" id="dword">
+                            <label for="dword">Dord</label><br>
+                            <input type="radio" name="bytes" value="word" id="word">
+                            <label for="word">Word</label><br>
+                            <input type="radio" name="bytes" value="byte" id="byte">
+                            <label for="byte">Byte</label><br>
+                        </td>
+                        <td class="button"><button class="button" type="submit">Or</button></td>
+                        <td class="button"><button class="button" type="submit">Xor</button></td>
+                        <td class="button"><button class="button numbers disabled" type="submit" disabled>D</button></td>
+                        <td class="button"><button class="button numbers" type="submit">4</button></td>
+                        <td class="button"><button class="button numbers" type="submit">5</button></td>
+                        <td class="button"><button class="button numbers" type="submit">6</button></td>
+                        <td class="button"><button class="button" type="submit">*</button></td>
+                        <td class="button"><button class="button disabled" type="submit" disabled>1/x</button></td>
+                    </tr>
+                    <tr>
+                        <td class="button"><button class="button" type="submit">Lsh</button></td>
+                        <td class="button"><button class="button" type="submit">Rsh</button></td>
+                        <td class="button"><button class="button numbers disabled" type="submit" disabled>E</button></td>
+                        <td class="button"><button class="button numbers" type="submit">1</button></td>
+                        <td class="button"><button class="button numbers" type="submit">2</button></td>
+                        <td class="button"><button class="button numbers" type="submit">3</button></td>
+                        <td class="button"><button class="button" type="submit">-</button></td>
+                        <td class="button" rowspan="2"><button class="button" type="submit" id="equals">=</button></td>
+                    </tr>
+                    <tr>
+                        <td class="button"><button class="button" type="submit">Not</button></td>
+                        <td class="button"><button class="button" type="submit">And</button></td>
+                        <td class="button"><button class="button numbers disabled" type="submit" disabled>F</button></td>
+                        <td class="button" colspan="2"><button class="button" type="submit" id="zero">0</button></td>
+                        <td class="button"><button class="button" type="submit">.</button></td>
+                        <td class="button"><button class="button" type="submit">+</button></td>
+                    </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>

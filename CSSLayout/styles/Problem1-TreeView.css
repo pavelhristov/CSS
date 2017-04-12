@@ -1,0 +1,20 @@
+#menutree li {
+    list-style: none;
+}
+
+li .menuitems {
+    cursor: pointer;
+}
+
+li .menuitems + ol > li {
+    display: none;
+    color: grey
+}
+
+li .menuitems:hover+ ol > li {
+    display: block;
+}
+
+.menuitems:hover {
+    text-decoration: underline;
+}

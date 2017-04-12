@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F1F1F1;
+}
+
+.links {
+    float: left;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 100px;
+    width: 15%;
+    padding-left: 1px;
+}
+
+.sections {
+    margin-top: 15px;
+}
+
+#home {
+    font-weight: bold;
+    background: url('../images/homeicon.png') no-repeat;
+    background-size: 15px;
+    padding-left: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links .main-sections {
+    color: darkred;
+}
+
+.main-content {
+    border: 1px solid grey;
+    background-color: white;
+    width: 68%;
+    float: left;
+    font-size: 12px;
+}
+
+.main-content header {
+    margin-left: 5px;
+}
+
+.main-content header h1 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.next,
+.previous {
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.next {
+    background: url('../images/arrow-right.png') no-repeat;
+    background-size: 10px;
+    background-position: right;
+}
+
+.previous {
+    background: url('../images/arrow-left.png') no-repeat;
+    background-size: 10px;
+    background-position: left;
+}
+
+.next:hover,
+.previous:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-content main {
+    margin: 5px;
+}
+
+.main-content main h2,
+.extra-links div h3 {
+    color: white;
+    background-color: dimgrey;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.main-content main img {
+    float: left;
+}
+
+.main-content main section p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.some-info {
+    font-weight: bold;
+}
+
+.main-content .lines {
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.some-info-link {
+    color: darkred;
+}
+
+.extra-links {
+    float: left;
+    min-width: 100px;
+    width: 15%
+}
+
+.extra-links div {
+    border: 1px solid grey;
+    margin: 1px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.extra-links div input {
+    width: 80px;
+    border: 1px solid royalblue;
+    margin-top: 5px;
+}
+
+.extra-links div button {
+    height: 20px;
+    background-color: #F6F6F3;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+}
+
+.extra-links div a {
+    color: darkred;
+    font-size: 12px;
+    display: block;
+}
+
+.extra-links div #styles {
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: deepskyblue;
+    border-color: #3F81B2;
+    border-radius: 1px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#92d4f7+0,c0e6fa+9,c0e6fa+91,92d4f7+100 */
+    background: #92d4f7;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #92d4f7 0%, #c0e6fa 9%, #c0e6fa 91%, #92d4f7 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #92d4f7 0%, #c0e6fa 9%, #c0e6fa 91%, #92d4f7 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #92d4f7 0%, #c0e6fa 9%, #c0e6fa 91%, #92d4f7 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#92d4f7', endColorstr='#92d4f7', GradientType=1);
+    /* IE6-9 */
+}
